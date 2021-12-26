@@ -1,11 +1,13 @@
 package main
 
 import (
-	"exercices/calculator"
 	"exercices/counter"
+	"exercices/routines"
 )
 
 func main() {
-	calculator.Calculator()
 	counter.CounterAtTen()
+	//routines.RunTimeRountinesWithWaitGroup()
+	routines.RoutinesWithMutexAndRutime()
+	//calculator.Calculator()
 }
